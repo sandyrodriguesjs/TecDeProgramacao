@@ -2,17 +2,7 @@ package Lista3;
 
 public class Atividade03 {
 	
-	/*public static int mediaPonderada(int[] vetorNota, int[] vetorPeso) {
-		for (int i = 0; i < vetorNota.length; i++) {
-			for(int j = 0; j < vetorPeso.length; j++) {
-				
-			}
-		}
-		
-		return mediaPonderada;
-	})*/
-	
-public static double calcularMediaPonderada(double[] notas, double[] pesos) {
+	public static double calcularMediaPonderada(double[] notas, double[] pesos) {
 	    double somaNotasPesos = 0;
 	    double somaPesos = 0;
 	    for (int i = 0; i < notas.length; i++) {
